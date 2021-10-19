@@ -89,6 +89,12 @@ npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-s
 
 ## Authors
 
+👤 **Donat UWAMAHORO**
+
+- GitHub: [@Donat UWAMAHORO](https://github.com/uwadonat)
+- Twitter: [@Donat UWAMAHORO](https://twitter.com/uwahoroDonat)
+- LinkedIn: [Donat UWAMAHORO](https://www.linkedin.com/in/uwadonat/)
+
 
 👤 **Elisha Kyakopo**
 
@@ -111,13 +117,6 @@ npm install --save-dev stylelint@13.3.x stylelint-scss@3.17.x stylelint-config-s
 - GitHub: [@Tendai Nyandoro](https://github.com/tnyandoro)
 - Twitter: [@tendainyandoro](https://twitter.com/tendainyandoro)
 - LinkedIn: [Tendai Nyandoro](https://www.linkedin.com/in/tendai-nyandoro/)
-
-👤 **Donat UWAMAHORO**
-
-- GitHub: [@Donat UWAMAHORO](https://github.com/uwadonat)
-- Twitter: [@Donat UWAMAHORO](https://twitter.com/uwahoroDonat)
-- LinkedIn: [Donat UWAMAHORO](https://www.linkedin.com/in/uwadonat/)
-
 
 =======
 
