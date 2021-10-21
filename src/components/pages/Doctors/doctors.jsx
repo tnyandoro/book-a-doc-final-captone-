@@ -37,7 +37,23 @@ const Doctors = () => {
               <h2 className="select">please select a doctor</h2>
             </div>
             <div className="doctors_row">
-              <div className="shape"><div /></div>
+              <div className="shape">
+                <div className="inner">
+                  <i className="fa fa-car fa-lg" />
+                </div>
+              </div>
+              <div className="doctors_list">
+                {doctors.map(doctor => (
+                  <div className="doctor">
+                    <div className="circle" style={{ marginRight: '10px' }}>
+                      <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634377712/SDDw7CnuoUGax6x9mTo7dd.jpg" alt="doctors" />
+                    </div>
+                    <div><h2 style={{ marginLeft: '80px' }}>{doctor.name}</h2></div>
+                  </div>
+
+                ))}
+
+              </div>
             </div>
           </div>
         </div>
