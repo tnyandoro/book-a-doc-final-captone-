@@ -13,31 +13,31 @@ const Sidebar = () => (
   <div
     style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
   >
-    <CDBSidebar textColor="#fff" backgroundColor="#333">
+    <CDBSidebar textColor="#99c210" backgroundColor="#fff">
       <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large" />}>
         <a
           href="/"
           className="text-decoration-none"
           style={{ color: 'inherit' }}
         >
-          Sidebar
+          Book A Doctor
         </a>
       </CDBSidebarHeader>
 
       <CDBSidebarContent className="sidebar-content">
         <CDBSidebarMenu>
           <NavLink exact to="/" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem className="">Home</CDBSidebarMenuItem>
           </NavLink>
           <NavLink exact to="/tables" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="table">Tables</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem>Doctors</CDBSidebarMenuItem>
           </NavLink>
           <NavLink exact to="/profile" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="user">Profile page</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem>Doctors Profile</CDBSidebarMenuItem>
           </NavLink>
           <NavLink exact to="/analytics" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="chart-line">
-              Analytics
+            <CDBSidebarMenuItem>
+              Book an Appointment
             </CDBSidebarMenuItem>
           </NavLink>
 
@@ -54,7 +54,7 @@ const Sidebar = () => (
         </CDBSidebarMenu>
       </CDBSidebarContent>
 
-      <CDBSidebarFooter style={{ textAlign: 'center' }}>
+      <CDBSidebarFooter icon="fa fa-facebook" style={{ textAlign: 'center' }}>
         <div
           style={{
             padding: '20px 5px',
