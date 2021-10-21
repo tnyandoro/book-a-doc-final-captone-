@@ -1,8 +1,16 @@
 const DISPLAY_APPOINTMENTS = 'BOOK/DISPLAY_APPOINTMENTS';
+const ASK_APPOINMENT = 'BOOK/ASK_APPOINTMENT';
+const CANCEL_APPOINTMENTS = 'BOOK/CANCEL_APPOINTMENT',
+
 
 const loadAppointments = (json) => ({
     type: DISPLAY_APPOINTMENTS,
     json,
+});
+
+const askAppointment = (payload) => ({
+    type: ASK_APPOINMENT,
+    payload,
 });
 
 const appointmentReducer = (state = [], action) => {
@@ -20,6 +28,15 @@ const appointmentReducer = (state = [], action) => {
                     id, appointment_date, hospital, doctor_id, client_id,
                 };
             });
+        case ASK_APPOINMENT:
+            return [...state,
+                       {
+                           id: action.payload.id,
+                           appointment_date: action.payload.appointment_date,
+                           hospital: action.payload.hospital,
+                           doctor_id: action.payload.doctor_id,
+                       }
+                    ]
         default:
             return state;
     }
