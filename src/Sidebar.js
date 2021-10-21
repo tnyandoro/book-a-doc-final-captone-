@@ -1,4 +1,6 @@
 import React from 'react';
+import './Sidebar.css';
+
 import {
   CDBSidebar,
   CDBSidebarContent,
@@ -27,7 +29,7 @@ const Sidebar = () => (
       <CDBSidebarContent className="sidebar-content">
         <CDBSidebarMenu>
           <NavLink exact to="/" activeClassName="activeClicked">
-            <CDBSidebarMenuItem className="">Home</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem className="bar-font">Home</CDBSidebarMenuItem>
           </NavLink>
           <NavLink exact to="/tables" activeClassName="activeClicked">
             <CDBSidebarMenuItem>Doctors</CDBSidebarMenuItem>

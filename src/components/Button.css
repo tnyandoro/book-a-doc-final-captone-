@@ -11,7 +11,7 @@
 }
 
 .btn--primary {
-  background-color: var(--primary-text);
+  background-color: #97bf0f;
   color: #fff;
   border: 1px solid var(--primary);
 }
