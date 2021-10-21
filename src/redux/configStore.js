@@ -2,9 +2,10 @@ import { createStore, combineReducers, applyMiddleware } from 'redux';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import { doctorReducer } from './Doctors';
+import { appointmentReducer } from './Appointments';
 
 const reducer = combineReducers({
-    doctorReducer, clientReducer, appointmentReducer
+    doctorReducer, appointmentReducer, clientReducer,
 });
 
 const store = createStore(
