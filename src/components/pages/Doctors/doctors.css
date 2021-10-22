@@ -10,9 +10,9 @@
   }
 
   .mb_shape {
-    width: 60px; 
-    height: 90px; 
-    background: linear-gradient(to right, white 0%,white 25%,#d0d7de 25%,#d0d7de 40%, 50%,#d0d7de 100%);
+    width: 60px;
+    height: 90px;
+    background: linear-gradient(to right, white 0%, white 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
     border-radius: 30px / 50px;
     margin-left: -5%;
   }
@@ -28,17 +28,18 @@
     width: 90%;
     height: 80%;
   }
+
   .doctor_list_mob {
-      margin-top: 5vh;
+    margin-top: 5vh;
   }
 
   .doctor_name {
-      margin-left: 12vw;
+    margin-left: 12vw;
   }
 
   .doctors_row_mobile {
-      display: flex;
-      justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   }
 
   .rotate {
@@ -47,7 +48,7 @@
   }
 }
 
-@media only screen and (min-width: 769px)  {
+@media only screen and (min-width: 769px) {
   .contain {
     width: 64vw;
     margin-left: 2vw;
@@ -75,11 +76,11 @@
   }
 
   .leading {
-    padding-left: 56%;  
+    padding-left: 56%;
     width: 50%;
     font-weight: 900;
     padding-top: 10%;
-}
+  }
 
   .please {
     font-size: 40px;
@@ -93,51 +94,47 @@
   }
 
   .shape {
-    width: 220px; 
-    height: 100px; 
-    background: linear-gradient(to right, white 0%,white 25%,#d0d7de 25%,#d0d7de 40%, 50%,#d0d7de 100%);
+    width: 220px;
+    height: 100px;
+    background: linear-gradient(to right, white 0%, white 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
     border-radius: 30px / 50px;
     margin-left: -5%;
   }
 
- .doctors_row {
+  .doctors_row {
     margin-top: 15%;
     display: flex;
- }
+  }
 
- .inner {
+  .inner {
     margin-left: 100px;
- }
+  }
 
- .doctors_list {
-    margin-left: 10%;
+  .doctors_list {
     margin-top: -6%;
- }
+    display: flex;
+    margin-left: 50px;
+  }
 
- .circle {
+  .circle {
     background-color: #d4ece9;
     border-radius: 50%;
     width: 10vw;
     height: 30vh;
- }
+  }
 
- .doctor {
-     position: relative;
- }
+  .doctor {
+    position: relative;
+  }
 
- .doctors_list {
-    display: flex;
-    margin-left: 50px;
- }
-
- .circle img {
+  .circle img {
     width: 90%;
     height: 60%;
     position: absolute;
     top: 15%;
- }
+  }
 
- .doctors_row_mobile {
-     display: none;
- }
+  .doctors_row_mobile {
+    display: none;
+  }
 }
