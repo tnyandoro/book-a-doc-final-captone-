@@ -38,9 +38,7 @@ const Doctors = () => {
             </div>
             <div className="doctors_row">
               <div className="shape">
-                <div className="inner">
-                  <i className="fa fa-car fa-lg" />
-                </div>
+                <div className="inner" />
               </div>
               <div className="doctors_list">
                 {doctors.map(doctor => (
@@ -53,6 +51,25 @@ const Doctors = () => {
 
                 ))}
 
+              </div>
+            </div>
+            <div className="doctors_row_mobile">
+              <div className="mb_shape">
+                <div className="mb_inner" />
+              </div>
+              <div className="doctor_list_mob">
+                {doctors.map(doctor => (
+                  <div className="doctor_mob">
+                    <div className="circle_mob" style={{ marginRight: '10px' }}>
+                      <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634377712/SDDw7CnuoUGax6x9mTo7dd.jpg" alt="doctors" />
+                    </div>
+                    <div><h2 className="doctor_name">{doctor.name}</h2></div>
+                  </div>
+
+                ))}
+              </div>
+              <div className="mb_shape rotate">
+                <div className="mb_inner" />
               </div>
             </div>
           </div>

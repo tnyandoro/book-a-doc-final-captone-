@@ -9,7 +9,7 @@ class App extends React.Component {
     return (
       <Provider store={store}>
         <>
-          <div className="doctors" style={{ marginLeft: '300px' }}>
+          <div className="container">
             <Doctors />
           </div>
         </>
