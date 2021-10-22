@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import React from 'react';
@@ -12,8 +13,6 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="page container">
-          <Sidebar />
-          <Home />
           <Doctors />
         </div>
       </Router>

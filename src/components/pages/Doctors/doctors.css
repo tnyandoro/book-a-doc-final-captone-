@@ -99,13 +99,13 @@
   }
 
   .shape {
-    width: 150px;
+    width: 125px;
     height: 100px;
     background: linear-gradient(to right, #f1f1f1 0%, #f1f1f1 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
     border-radius: 30px / 50px;
-    margin-left: -3%;
+    margin-left: -1.5%;
     position: absolute;
-    top: 45%;
+    top: 60%;
   }
 
   .doctors_row {
@@ -118,15 +118,15 @@
   }
 
   .doctors_list {
-    margin-top: -10%;
+    margin-top: -12%;
     display: flex;
-    margin-left: 105px;
+    margin-left: 110px;
   }
 
   .circle {
     background-color: #d4ece9;
     border-radius: 50%;
-    width: 10vw;
+    width: 9vw;
     height: 30vh;
   }
 
@@ -146,7 +146,7 @@
   }
 
   .opposite {
-    left: 80%;
+    left: 85.2%;
     transform: rotate(180deg);
   }
 }
