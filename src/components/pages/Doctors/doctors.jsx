@@ -36,10 +36,10 @@ const Doctors = () => {
               <h1 className="please">LEADING DOCTORS</h1>
               <h2 className="select">please select a doctor</h2>
             </div>
+            <div className="shape">
+              <div className="inner" />
+            </div>
             <div className="doctors_row">
-              <div className="shape">
-                <div className="inner" />
-              </div>
               <div className="doctors_list">
                 {doctors.map(doctor => (
                   <div className="doctor">
@@ -52,6 +52,9 @@ const Doctors = () => {
                 ))}
 
               </div>
+            </div>
+            <div className="shape opposite">
+              <div className="inner" />
             </div>
             <div className="doctors_row_mobile">
               <div className="mb_shape">

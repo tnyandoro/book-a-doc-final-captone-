@@ -99,11 +99,13 @@
   }
 
   .shape {
-    width: 220px;
+    width: 150px;
     height: 100px;
-    background: linear-gradient(to right, white 0%, white 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
+    background: linear-gradient(to right, #f1f1f1 0%, #f1f1f1 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
     border-radius: 30px / 50px;
-    margin-left: -5%;
+    margin-left: -3%;
+    position: absolute;
+    top: 45%;
   }
 
   .doctors_row {
@@ -116,9 +118,9 @@
   }
 
   .doctors_list {
-    margin-top: -6%;
+    margin-top: -10%;
     display: flex;
-    margin-left: 50px;
+    margin-left: 105px;
   }
 
   .circle {
@@ -141,5 +143,10 @@
 
   .doctors_row_mobile {
     display: none;
+  }
+
+  .opposite {
+    left: 80%;
+    transform: rotate(180deg);
   }
 }
