@@ -20,8 +20,8 @@
   .circle_mob {
     background-color: #d4ece9;
     border-radius: 50%;
-    width: 150px;
     height: 30vh;
+    width: 150px;
   }
 
   .circle_mob img {
