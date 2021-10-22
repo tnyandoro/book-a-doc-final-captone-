@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useSelector, useDispatch } from 'react-redux';
 import React, { useEffect, useState } from 'react';
+import { render } from 'react-dom';
 import { getDoctors } from '../../../redux/Doctors';
 import './doctors.css';
 
@@ -54,7 +55,9 @@ const Doctors = () => {
               </div>
             </div>
             <div className="shape opposite">
-              <div className="inner" />
+              <div className="inner">
+                <i className="fab fa-accessible-icon" />
+              </div>
             </div>
             <div className="doctors_row_mobile">
               <div className="mb_shape">
