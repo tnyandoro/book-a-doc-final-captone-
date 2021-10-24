@@ -1,0 +1,154 @@
+@media screen and (max-width: 768px) {
+  .doctors_row {
+    display: none;
+  }
+
+  .please,
+  .select {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mb_shape {
+    width: 60px;
+    height: 90px;
+    background: linear-gradient(to right, white 0%, white 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
+    border-radius: 30px / 50px;
+    margin-left: -5%;
+  }
+
+  .circle_mob {
+    background-color: #d4ece9;
+    border-radius: 50%;
+    height: 30vh;
+    width: 150px;
+    top: 100px;
+  }
+
+  .circle_mob img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .doctor_list_mob {
+    margin-top: 5vh;
+  }
+
+  .doctor_name {
+    margin-left: 12vw;
+  }
+
+  .doctors_row_mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+    margin-right: -2%;
+  }
+
+  .container {
+    width: 95%;
+    border: solid 15px #f1f1f1;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .contain {
+    width: 64vw;
+    margin-left: 2vw;
+    height: 80vh;
+    padding-top: 3vh;
+    border: solid 30px #f1f1f1;
+  }
+
+  .outter_container {
+    width: 71vw;
+    height: 92vh;
+    border: solid 0.2px #d0d7de;
+    margin-left: 300px;
+  }
+
+  .best_medicine {
+    padding-top: 60%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .doct {
+    width: 85%;
+    height: 80%;
+  }
+
+  .leading {
+    padding-left: 56%;
+    width: 50%;
+    font-weight: 900;
+    padding-top: 10%;
+  }
+
+  .please {
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .select {
+    color: #d8d8d8;
+    margin-top: -6.5%;
+    margin-left: 16%;
+    width: 20vw;
+  }
+
+  .shape {
+    width: 125px;
+    height: 100px;
+    background: linear-gradient(to right, #f1f1f1 0%, #f1f1f1 25%, #d0d7de 25%, #d0d7de 40%, 50%, #d0d7de 100%);
+    border-radius: 30px / 50px;
+    margin-left: -1.5%;
+    position: absolute;
+    top: 50%;
+  }
+
+  .doctors_row {
+    margin-top: 15%;
+    display: flex;
+  }
+
+  .inner {
+    margin-left: 100px;
+  }
+
+  .doctors_list {
+    margin-top: -12%;
+    display: flex;
+    margin-left: 110px;
+  }
+
+  .circle {
+    background-color: #d4ece9;
+    border-radius: 50%;
+    width: 9vw;
+    height: 30vh;
+  }
+
+  .doctor {
+    position: relative;
+  }
+
+  .circle img {
+    width: 90%;
+    height: 60%;
+    position: absolute;
+    top: 15%;
+  }
+
+  .doctors_row_mobile {
+    display: none;
+  }
+
+  .opposite {
+    left: 85.2%;
+    transform: rotate(180deg);
+  }
+}

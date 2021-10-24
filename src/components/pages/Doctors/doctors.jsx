@@ -38,44 +38,31 @@ const Doctors = () => {
               <h2 className="select">please select a doctor</h2>
             </div>
             <div className="shape">
-              <div className="inner" />
+              <div className="inner">
+                <i className="material-icons">chevron_left</i>
+              </div>
             </div>
-            <div className="doctors_row">
-              <div className="doctors_list">
-                {doctors.map(doctor => (
-                  <div className="doctor">
-                    <div className="circle" style={{ marginRight: '10px' }}>
-                      <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634377712/SDDw7CnuoUGax6x9mTo7dd.jpg" alt="doctors" />
+            <div className="container">
+              <div className="row_contain">
+                <div className="doctors_list row">
+                  {doctors.map(doctor => (
+                    <div className="col-12 col-md-4">
+                      <div className="doctor">
+                        <div className="circle">
+                          <img src="" alt="doctors" />
+                        </div>
+                        <h2 className="name">{doctor.name}</h2>
+                      </div>
                     </div>
-                    <div><h2 style={{ marginLeft: '80px' }}>{doctor.name}</h2></div>
-                  </div>
 
-                ))}
+                  ))}
 
+                </div>
               </div>
             </div>
             <div className="shape opposite">
               <div className="inner">
-                <i className="fab fa-accessible-icon" />
-              </div>
-            </div>
-            <div className="doctors_row_mobile">
-              <div className="mb_shape">
-                <div className="mb_inner" />
-              </div>
-              <div className="doctor_list_mob">
-                {doctors.map(doctor => (
-                  <div className="doctor_mob">
-                    <div className="circle_mob" style={{ marginRight: '10px' }}>
-                      <img src="https://res.cloudinary.com/erezfriemagor/image/upload/v1634377712/SDDw7CnuoUGax6x9mTo7dd.jpg" alt="doctors" />
-                    </div>
-                    <div><h2 className="doctor_name">{doctor.name}</h2></div>
-                  </div>
-
-                ))}
-              </div>
-              <div className="mb_shape rotate">
-                <div className="mb_inner" />
+                <i className="fas fa-triangle" />
               </div>
             </div>
           </div>
