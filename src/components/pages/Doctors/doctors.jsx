@@ -39,7 +39,7 @@ const Doctors = () => {
             </div>
             <div className="shape">
               <div className="inner">
-                <i className="material-icons">chevron_left</i>
+                <i className="material-icons" style={{ color: 'white' }}>change_history</i>
               </div>
             </div>
             <div className="container">
@@ -61,8 +61,8 @@ const Doctors = () => {
               </div>
             </div>
             <div className="shape opposite">
-              <div className="inner">
-                <i className="fas fa-triangle" />
+              <div className="inner inner_opposite">
+                <i className="material-icons" style={{ color: 'white' }}>change_history</i>
               </div>
             </div>
           </div>
