@@ -13,6 +13,7 @@ function App() {
     <Provider store={store}>
       <Router>
         <div className="page container">
+          <Sidebar />
           <Doctors />
         </div>
       </Router>

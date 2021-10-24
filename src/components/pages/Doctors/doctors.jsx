@@ -46,7 +46,7 @@ const Doctors = () => {
               <div className="row_contain">
                 <div className="doctors_list row">
                   {doctors.map(doctor => (
-                    <div className="col-12 col-md-4">
+                    <div className="col-12 col-md-6 col-lg-4">
                       <div className="doctor">
                         <div className="circle">
                           <img src="" alt="doctors" />
