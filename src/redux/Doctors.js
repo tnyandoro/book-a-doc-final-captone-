@@ -74,7 +74,7 @@ const displayDoctor = (dispatch) => {
 }
 
 const getDoctors = () => (dispatch) => {
-    fetch('https://localhost/doctors')
+    fetch('https://book-doctor-appointment.herokuapp.com/doctors')
       .then((Response) => Response.json())
       .then((json) => dispatch(loadDoctors(json)));
 };

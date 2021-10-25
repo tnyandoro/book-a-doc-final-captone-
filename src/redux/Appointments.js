@@ -43,7 +43,7 @@ const appointmentReducer = (state = [], action) => {
 };
 
 const getAppointments = () => {
-    fetch('https://localhost/appointments')
+    fetch('https://book-doctor-appointment.herokuapp.com/doctors')
       .then((Response) => Response.json())
       .then((json) => dispatch(loadAppointments(json)));
 };
